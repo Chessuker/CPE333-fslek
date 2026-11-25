@@ -1,0 +1,27 @@
+# ไฟล์ที่ได้จากการ build module
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.symvers
+*.order
+.tmp_versions/
+bench.csv
+
+# สไลด์: dependency และไฟล์ล็อกของ PowerPoint
+node_modules/
+~$*
+
+# ค่าเฉพาะเครื่อง
+.vscode/
+
+# เอกสารวิชาและรายงาน MP1 ไม่เผยแพร่ใน repo
+*.pdf
+
+# รุ่นเก่า เก็บไว้ในเครื่องเท่านั้น
+captures/old*/
+captures/test_bench-old.png
+docs/minifs-design.pptx
+docs/fslek-design-*.pptx
+tests/*.th.sh

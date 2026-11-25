@@ -1,0 +1,5 @@
+# ไฟล์ทั้งหมดถูก build/รันบน Linux ต้องเป็น LF เสมอ
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.pptx binary

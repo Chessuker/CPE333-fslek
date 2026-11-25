@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: GPL-2.0-only
+config FSLEK_FS
+	tristate "fslek: mini RAM-based filesystem (CPE333)"
+	help
+	  A small RAM-based filesystem written for the CPE333 Operating
+	  Systems mini-project. File contents live in a per-inode buffer
+	  allocated with kvzalloc(); the directory tree lives in the dcache.
+	  Everything is lost on unmount.
+
+	  To compile this as a module, choose M here: the module will be
+	  called fslek.
+
+	  If unsure, say N.
